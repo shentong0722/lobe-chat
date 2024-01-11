@@ -18,12 +18,6 @@ const Footer = memo(() => {
       </span>
       <Flexbox horizontal>
         <ActionIcon
-          icon={DiscordIcon}
-          onClick={() => window.open(DISCORD, '__blank')}
-          size={'site'}
-          title={'Discord'}
-        />
-        <ActionIcon
           icon={Book}
           onClick={() => window.open(WIKI, '__blank')}
           size={'site'}
